@@ -104,6 +104,11 @@ GR_PYTHON_INSTALL(
     funcube_submit.py
     eseo_telemetry.py
     eseo_telemetry_parser.py
+    equisat_4fsk_block_decode.py
+    equisat_4fsk_preamble_detect.py
+    equisat_submitter.py
+    equisat_packetparse.py
+    equisat_telemetry_parser.py
     dstar_one_telemetry.py
     dstar_one_telemetry_parser.py
     reflect_bytes.py

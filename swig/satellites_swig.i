@@ -24,6 +24,7 @@
 #include "satellites/ao40_deinterleaver_soft.h"
 #include "satellites/descrambler308.h"
 #include "satellites/decode_rs_general.h"
+#include "satellites/equisat_fec_decoder.h"
 %}
 
 %include "satellites/decode_rs.h"
@@ -58,3 +59,5 @@ GR_SWIG_BLOCK_MAGIC2(satellites, ao40_deinterleaver_soft);
 GR_SWIG_BLOCK_MAGIC2(satellites, descrambler308);
 %include "satellites/decode_rs_general.h"
 GR_SWIG_BLOCK_MAGIC2(satellites, decode_rs_general);
+%include "satellites/equisat_fec_decoder.h"
+GR_SWIG_BLOCK_MAGIC2(satellites, equisat_fec_decoder);

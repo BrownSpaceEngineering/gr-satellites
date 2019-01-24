@@ -45,7 +45,7 @@
 // Modified by Daniel Estevez
 // Now we take a maximum value MAX_NPAR and the NPAR parameter
 // is set at runtime
-#define MAX_NPAR 16
+#define MAX_NPAR 32
 
 /****************************************************************/
 

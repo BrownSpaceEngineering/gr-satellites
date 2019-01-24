@@ -48,6 +48,7 @@ list(APPEND satellites_sources
     ao40_deinterleaver_soft_impl.cc
     descrambler308_impl.cc
     decode_rs_general_impl.cc
+    equisat_fec_decoder_impl.cc
 )
 
 set(satellites_sources "${satellites_sources}" PARENT_SCOPE)

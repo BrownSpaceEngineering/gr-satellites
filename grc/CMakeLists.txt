@@ -82,6 +82,11 @@ install(FILES
     satellites_pwsat2_submitter.xml
     satellites_eseo_packet_crop.xml
     satellites_eseo_line_decoder.xml
+    satellites_equisat_4fsk_block_decode.xml
+    satellites_equisat_4fsk_preamble_detect.xml
+    satellites_equisat_submitter.xml
+    satellites_equisat_telemetry_parser.xml
+    satellites_equisat_fec_decoder.xml
     satellites_check_eseo_crc.xml
     satellites_decode_rs_general.xml
     satellites_funcube_submit.xml

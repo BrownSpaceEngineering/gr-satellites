@@ -112,6 +112,12 @@ from eseo_line_decoder import eseo_line_decoder
 from check_eseo_crc import check_eseo_crc
 from eseo_telemetry_parser import eseo_telemetry_parser
 
+from equisat_4fsk_block_decode import equisat_4fsk_block_decode
+from equisat_4fsk_preamble_detect import equisat_4fsk_preamble_detect
+from equisat_submitter import equisat_submitter
+import equisat_packetparse
+from equisat_telemetry_parser import equisat_telemetry_parser
+
 from funcube_submit import funcube_submit
 
 from dstar_one_telemetry_parser import dstar_one_telemetry_parser
